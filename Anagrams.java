@@ -88,7 +88,6 @@ public class Anagrams {
 			for (int i = 0; i < length; i++) {
 				char c = input.charAt(i);
 
-				//(a < b) ? a : b;
 				// if i am getting paid to write code, i use ternary operators less often :P 
 				int wordCandCharLower = (wordToCharCounts.get(wordCand).get(Character.toLowerCase(c)) != null) 
 											? wordToCharCounts.get(wordCand).get(Character.toLowerCase(c)) : 0;
